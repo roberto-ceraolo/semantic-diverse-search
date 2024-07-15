@@ -1,0 +1,10 @@
+max_length: 128
+threshold: 0.7
+batch_size: 2
+learning_rate: 5e-5
+num_epochs: 3
+model_name: "joelniklaus/legal-swiss-longformer-base"
+dataset_name: "joelniklaus/Multi_Legal_Pile"
+save_dir: "fine-tuned-legal-swiss-longformer"
+triplet_dataset_path: "triplet_dataset.pt"
+num_samples: 100  # Number of samples to process from the dataset

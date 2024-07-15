@@ -1,0 +1,21 @@
+# config.yaml
+dataset_name: "joelniklaus/Multi_Legal_Pile"
+en_subset: "en_contracts"
+de_subset: "de_contracts"
+transformer_model: "paraphrase-multilingual-MiniLM-L12-v2"
+num_samples: 20000
+buffer_size: 20000
+min_sentence_length: 5
+max_sentence_length: 50
+max_sentences: 50000
+k: 1000
+num_query_samples: 100
+semantic_threshold: 0.9
+cross_lingual_threshold: 0.9
+toggle_GPT: false
+num_eval_samples: 100
+gpt_model: "gpt-3.5-turbo"
+openai_api_key: "your-api-key-here"  # Replace with your actual API key
+generate_csv: true  # Set to true to generate CSV files
+csv_output_dir: "output"  # Directory to store CSV files
+output_dir: "output"

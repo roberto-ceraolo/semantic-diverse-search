@@ -1,0 +1,8 @@
+faiss-cpu
+sentence_transformers
+datasets
+spacy
+bert_score
+evaluate
+nltk
+openai
